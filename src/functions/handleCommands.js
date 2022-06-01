@@ -1,8 +1,8 @@
 const { REST } = require("@discordjs/rest");
 const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
-const clientId = '970762180741967942';
-const guildId = '974814674178687027';
+const clientId = '981627597312122940';
+const guildId = '981611706981707878';
 
 module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
